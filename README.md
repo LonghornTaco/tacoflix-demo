@@ -13,7 +13,7 @@ You will also need to sign up for a developers API key from TheMovieDB.org.  Thi
 
 ## Deployment
 
-First, you'll need to generate the model `json` file.  You can do this through the `TacoFlix.Client`.  Just click the xDB menu item in the top left, then select `Generate Model`.  This will generate the model file in the default output location for `TacoFlix.Client`.  You'll need to copy this model file to three locations:
+First, you'll need to generate the model `json` file.  You can do this through the `TacoFlix.Client`.  Just click the xDB menu item in the top left, then select `Generate Model`.  This will generate the model file in the default output location for `TacoFlix.Client`.  You'll need to copy this model file to four locations:
 
 * `<xConnect-root>/App_Data/Models`
 * `<index-worker-root>/App_Data/Models`
