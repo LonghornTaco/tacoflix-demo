@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <Sitecore>
+    <Processing>
+      <Services>
+        <MovieRecommendationProvider>
+          <Type>TacoFlix.ProcessingEngine.Extensions.Providers.TheMovieDbMovieRecommendationsProvider, TacoFlix.ProcessingEngine.Extensions</Type>
+          <As>TacoFlix.ProcessingEngine.Extensions.Providers.IMovieRecommendationsProvider, TacoFlix.ProcessingEngine.Extensions</As>
+          <LifeTime>Singleton</LifeTime>
+        </MovieRecommendationProvider>
+      </Services>
+    </Processing>
+  </Sitecore>
+  <theMovieDb>
+    <!-- API Key from TheMovieDB.org -->
+    <apiKey></apiKey>
+  </theMovieDb>
+</settings>

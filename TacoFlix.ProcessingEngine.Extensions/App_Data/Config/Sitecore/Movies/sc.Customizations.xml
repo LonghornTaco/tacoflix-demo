@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Sitecore>
+    <Processing>
+      <Services>
+        <TaskServicesFactory>
+          <Options>
+            <MovieRecommendationWorker>
+              <Type>TacoFlix.ProcessingEngine.Extensions.MovieRecommendationWorker, TacoFlix.ProcessingEngine.Extensions</Type>
+            </MovieRecommendationWorker>
+            <RecommendationFacetStorageWorker>
+              <Type>TacoFlix.ProcessingEngine.Extensions.RecommendationFacetStorageWorker, TacoFlix.ProcessingEngine.Extensions</Type>
+            </RecommendationFacetStorageWorker>
+          </Options>
+        </TaskServicesFactory>
+        <MovieRecommendationModel>
+          <Type>TacoFlix.ProcessingEngine.Extensions.MovieRecommendationModel, TacoFlix.ProcessingEngine.Extensions</Type>
+        </MovieRecommendationModel>
+      </Services>
+    </Processing>
+    <XConnect.Client>
+      <Services>
+        <Client.Configuration>
+          <Options>
+            <Models>
+              <MovieModel>
+                <TypeName>TacoFlix.Xconnect.Model.MovieModel, TacoFlix.Xconnect.Model</TypeName>
+                <PropertyName>Model</PropertyName>
+              </MovieModel>
+            </Models>
+          </Options>
+        </Client.Configuration>
+      </Services>
+    </XConnect.Client>
+  </Sitecore>
+</Settings>
