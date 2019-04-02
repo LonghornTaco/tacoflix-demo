@@ -6,7 +6,7 @@
       <Transport>
         <SqlServer>
           <OneWay>false</OneWay>
-          <ConnectionStringOrName>Data Source=.\SQL2016;Initial Catalog=cortex-demo_Messaging;User ID=sa;Password=p@ssw0rd</ConnectionStringOrName>
+          <ConnectionStringOrName>Data Source=.\;Initial Catalog=cortex-demo_Messaging;User ID=<user>;Password=<password></ConnectionStringOrName>
           <TableName>Sitecore_Transport</TableName>
           <!-- InputQueueName should be unique for CM/CD instance to handle response messages on the correct instance. -->
           <InputQueueName>SitecoreProcessingTaskRegistrationProducer_demo</InputQueueName>
@@ -33,7 +33,7 @@
       <Transport>
         <SqlServer>
           <OneWay>false</OneWay>
-          <ConnectionStringOrName>Data Source=.\SQL2016;Initial Catalog=cortex-demo_Messaging;User ID=sa;Password=p@ssw0rd</ConnectionStringOrName>
+          <ConnectionStringOrName>Data Source=.\;Initial Catalog=cortex-demo_Messaging;User ID=<user>;Password=<password></ConnectionStringOrName>
           <TableName>Sitecore_Transport</TableName>
           <!-- InputQueueName should be unique for CM/CD instance to handle response messages on the correct instance. -->
           <InputQueueName>SitecoreProcessingTaskProgressProducer_demo</InputQueueName>
