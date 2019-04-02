@@ -19,7 +19,7 @@ First, you'll need to generate the model `json` file.  You can do this through t
 * `<index-worker-root>/App_Data/Models`
 * `<processing-engine-root>/App_Data/Models`
 
-Next, copy the `TacoFlix.Model.dll`, `TacoFlix.Xconnect.Model.dll` and `TacoFlix.ProcessingEngine.Extensions.dll` to the following three locations:
+Next, copy the `TacoFlix.Model.dll`, `TacoFlix.Xconnect.Model.dll` and `TacoFlix.ProcessingEngine.Extensions.dll` to the following four locations:
 
 * `<xConnect-root>/bin`
 * `<index-worker-root>/`
