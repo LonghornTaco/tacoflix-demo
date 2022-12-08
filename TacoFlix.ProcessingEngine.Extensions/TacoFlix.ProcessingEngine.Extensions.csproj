@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Sitecore.Processing.Engine.Abstractions" Version="9.1.0" />
     <PackageReference Include="Sitecore.Processing.Engine.ML.Abstractions" Version="9.1.0" />
     <PackageReference Include="Sitecore.Processing.Engine.Projection" Version="9.1.0" />
